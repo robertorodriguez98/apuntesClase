@@ -13,7 +13,21 @@ cosas a <u>probar</u>:
 - [ ] tablas
 
 - [x] listas to do
-  
+
 ### Título 3:
-  
+
 por que todo está tabulado tal.
+
+---
+
+esto se supone que es un separador tal
+
+
+
+```python
+import json
+
+f = open("fichero.php")
+datos = json.load(f)
+f.close)()
+```
