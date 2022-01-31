@@ -3,7 +3,7 @@ PERMISOS
 
 ugoa
 
-&nbsp;&nbsp;&nbsp;🡓
+$~~~$🡓
 
 ACL $~~~~~$ **6** 4 4
 
