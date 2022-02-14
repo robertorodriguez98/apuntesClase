@@ -7,7 +7,7 @@ apuntes de ASIR en md
 ## HORARIO
 
 
-<span style="color: red">hola buenos dias</span>
+<style="color: red">hola buenos dias</style>
 ---
 
 | Lunes | Martes | Miércoles | Jueves | Viernes |
