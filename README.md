@@ -29,3 +29,16 @@ FH :arrow_right: Fundamentos de Hardware
 FOL :arrow_right: Formación y Orientación Laboral
 
 PAR :arrow_right: Planificación y Administración de Redes
+
+
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+p{color:Black !important;}
+</style>
+
+# Color Test Document
+
+## Second Heading
+
+This is a test to see how the colors work.
