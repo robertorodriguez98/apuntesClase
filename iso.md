@@ -34,3 +34,11 @@ ejemplo de lo que hace
  | 7 | 5 | 5 |
 
 
+    asdasd
+
+```python
+import math
+raiz = math.sqrt(12)
+
+``` 
+- [ ] A
