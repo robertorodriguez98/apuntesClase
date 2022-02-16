@@ -1,15 +1,31 @@
----
+<!-- ---
 title: "Plantilla de trabajos"
 subtitle: "Roberto Rodríguez Márquez 1º ASIR"
 keywords:
   - Plantilla
   - Markdown
-...
+... -->
+
+\begin{center}
+\begin{Huge}
+\vspace*{\fill}
+
+\textbf{Plantilla de trabajos}
+
+\vspace*{\fill}
+\end{Huge}
+
+\vfill
+
+\LARGE{Roberto Rodríguez Márquez 1º ASIR}
+\end{center}
+
+
 \newpage
 
 # Índice
-- [Enunciado](#id-section1)
-- [Resolución](#id-section2)
+- [Enunciado\dotfill 3](#id-section1)
+- [Resolución\dotfill 5](#id-section2)
 
 
 
