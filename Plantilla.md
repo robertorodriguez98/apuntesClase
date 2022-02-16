@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: "Plantilla de trabajos"
 subtitle: "Roberto Rodríguez Márquez 1º ASIR"
 keywords:
   - Plantilla
   - Markdown
-... -->
+...
 
 \begin{center}
 \begin{Huge}
