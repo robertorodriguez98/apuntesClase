@@ -5,8 +5,10 @@ nombre VARCHAR2(15),
 nacionalidad VARCHAR2(15),
 fechaNacimiento DATE,
 carreraDebut VARCHAR2(20),
-CONSTRAINT PK_Centros PRIMARY KEY (codigo)
-CONSTRAINT C_Centros_nacionalidad CHECK (nacionalidad IN ('Brasileña','Española','Inglesa','Alemana'))
+CONSTRAINT PK_Pilotos PRIMARY KEY (codigo),
+CONSTRAINT MAY_nombre CHECK (nombre = INITCAP(nombre)),
+CONSTRAINT C_carreraDebut CHECK (SUBSTR(carreraDebut,-1,4) BETWEEN 1990 AND 2010),
+CONSTRAINT C_nacionalidad CHECK (nacionalidad IN ('Brasileña','Española','Inglesa','Alemana'))
 );
 
 CREATE TABLE Circuitos
@@ -17,6 +19,7 @@ tipo VARCHAR2(15),
 longitud NUMBER(5,1),
 disenador VARCHAR2(20),
 CONSTRAINT PK_Circuitos PRIMARY KEY (nombre),
+CONSTRAINT MAYUS_nombre CHECK (nombre = UPPER(nombre))
 CONSTRAINT C_Centros_longitud CHECK (longitud > 2400)
 );
 
