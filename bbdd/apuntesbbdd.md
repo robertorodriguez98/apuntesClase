@@ -1,16 +1,12 @@
 ---
-title: "Apuntes TODO BBDD"
+title: "APUNTES todo BBDD"
 keywords:
   - BBDD
+  - MySQL
   - oracle
-  - mariadb
-  - mysql
-  - postgre
-  - DDL
-  - 
-  - Markdown
-...
-
+  - Postgre
+  - markdown
+---
 # DDL
 <!-- AQUI SE DISEÑAN LAS BBDD -->
 ## Línea de comandos
@@ -23,7 +19,7 @@ mysql -u user -p
 ```bash
 mysql -u user -p < batch_file
 ```
----
+
 ## Mostrar información de tablas y BD
 **Seleccionar una BD:**
 ```sql
@@ -41,7 +37,7 @@ SHOW TABLES;
 ```sql
 DESCRIBE table;
 ```
----
+
 ## Crear BD y tablas
 **Crear una BD:**
 ```sql
@@ -57,23 +53,27 @@ CREATE TABLE pet(
     raza ENUM('salchica','pastor alemán')
 );
 ```
----
 ## Insertar/Modificar/Eliminar campos
-* **Añadir una columna:**
+### Añadir una columna:
+* MySQL:
 ```sql
 ALTER TABLE clientes
 ADD COLUMN direccion VARCHAR(40)
 AFTER apellido2;
 ```
-* **Modificar una columna:**
+### Modificar una columna:
+* MySQL:
 ```sql
 ALTER TABLE clientes
 CHANGE dni nif VARCHAR(10);
 ```
-* **Eliminar una columna:**
+### Eliminar una columna:
+* MySQL:
 ```sql
 ALTER TABLE clientes
 DROP COLUMN dni;
 ```
+
 ---
+
 ## Borrar BD, Tablas y campos
