@@ -28,10 +28,10 @@ keywords:
 * **LICÁNTROPOS**: hombres lobo con la capacidada de regresar a ser humanos. 
 * **HOMBRES LOBO**: hombres lobo que tras su primera conversión a lobo, no pudieron regresar a ser humanos.
 * **HUMANOS**: unos mierdecillas.
-* **TÚ**: Un guerruero informático con superpoderes como darse la vuelta a un juego que todavía no ha salido al mercado o poseer la facultad de volverse invisible cuando sale de fiesta y trata de cortejar con una fémina diciéndole frases del tipo: ¿Quieres que te compile el kernel nena?
+* **TÚ**: Un guerrero informático con superpoderes como darse la vuelta a un juego que todavía no ha salido al mercado o poseer la facultad de volverse invisible cuando sale de fiesta y trata de cortejar con una fémina diciéndole frases del tipo: ¿Quieres que te compile el kernel nena?
 
 ##### El aspecto de UNDERWORLD es el siguiente:
-![underworld.png](46ad375dc9d23f544eeeca31c2e1b9d1.png)
+![](foto_underworld_enunciado.png)
 
 Todo el mundo usa la red para mandarse mensajitos y ligar (**por lo que deberás configurar la red para qu esto sea posible en un principio, es decir, que todos los equipos tengan conexión entre si**). Tú, que ya estás hasta la \*#!%?! de tanto bicho raro como consecuencia de los cruces que se producen cuando un vampiro se cruza por ejemplo con un licántropo y el hijo de éstos con un hombre lobo y así sucesivamente, decides ponerle fin a la historia haciendo lo siguiente, metiéndole unas cuantas **ACLs** a los routers que los comunican:
 
@@ -53,4 +53,11 @@ Utiliza la ACL adecuada para permitir tener comunicación entre IT KNIGHT, SELEN
 <div id='id-section2'/>
 ## Resolución
 
+#### 1. Esquema en GNS3 y ACLs
+
+<span style="font-family:Noto Sans">ENAMORADO!.
+![](UNDERWORLD.png)
+
+
 al 1 y al 4 hay que decirles la ruta por defecto, a los demás hay que decirle alguna cosita más.
+</span>
