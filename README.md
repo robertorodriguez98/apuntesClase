@@ -1,13 +1,17 @@
-# Apuntes clase
+# Índice
 
 ---
+## ISO
+1. Programación de tareas
+2. Compara archivos
+3. Sistemas de ficheros
+4. Permisos UGOA
+5. Creación de usuarios y política de privacidad
+6. [Creación de usuarios en modo batch](iso/usuariosbash.md)
 
-apuntes de ASIR en md
 
 ## HORARIO
 
-
-<style="color: red">hola buenos dias</style>
 ---
 
 | Lunes | Martes | Miércoles | Jueves | Viernes |
@@ -31,12 +35,3 @@ FH :arrow_right: Fundamentos de Hardware
 FOL :arrow_right: Formación y Orientación Laboral
 
 PAR :arrow_right: Planificación y Administración de Redes
-
-
-<style>H1{color:Blue;}</style>
-<style>H2{color:DarkOrange;}</style>
-<style>p{color:Black;}</style>
-
-## Second Heading
-
-This is a test to see how the colors work.
