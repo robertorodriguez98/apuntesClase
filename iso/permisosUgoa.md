@@ -13,7 +13,7 @@ sudo groupadd desarrollo
 sudo groupadd explotación
 ```
 2. Crea dentro del directorio raíz, el directorio proyecto,  con permisos de propietario root, y grupo del propietario root:
-```bash
+```shell
 sudo mkdir -m 770 /proyecto
 ls -l # para comprobar que se ha creado con dichos permisos
 ```
