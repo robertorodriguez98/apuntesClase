@@ -5,7 +5,7 @@
 1. Programación de tareas
 2. Compara archivos
 3. Sistemas de ficheros
-4. Permisos UGOA
+4. [Permisos UGOA](iso/permisosUgoa.md)
 5. Creación de usuarios y política de privacidad
 6. [Creación de usuarios en modo batch](iso/usuariosbash.md)
 
