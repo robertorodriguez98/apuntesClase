@@ -28,3 +28,16 @@ cp alumnos.txt alumnos2.txt
 sed 's/asir[0-9]+//g' alumnos1
 i = 1;while read linea; do chfn -f $linea asir$i;(i++));done < alumnos.txt
 ```
+
+otra explicacion:
+Pues hacemos un bucle for con cómo debería ser el fichero etc/passwd para que nos lo coja bien, debe tener ese esquema, y una x en la parte de las contraseña porque eso lo haremos en el /etc/shadow
+Hemos hecho un segundo fichero con el pwgen de los usuarios
+AHORA TENEMOS DOS FICHEROS, USUARIOS Y CONTRASEÑAS
+NOS METEMOS COMO ROOT AHORA
+newusers < pepe.txt
+chpasswd < pepecontra.txt
+cat pepecontra.txt
+Con newusers digo que se creen los usuarios del fichero pepe.txt
+Y lo añade a /etc/passwd como hemos hecho en el esqueleto
+Y para ENCRIPTAR la contraseña y lo chute a /etc/shadow lo hacemos a través de chpasswd, con esto hacemos que implemente las contraseñas del fichero de contraseñas creados con el for pwgen…
+Esto hace que los usuarios estén creados con contraseñas aleatorias y encriptadas, si probáis a iniciar sesión os debe de salir
