@@ -8,6 +8,7 @@ keywords:
 creacion de contraseñas
 ```bash
 for i in {1..30};do echo asir$i:`pwgen 10 1`>>contrasenas.txt;done
+    for i in {01..30};do echo "asir$i:"`pwgen 8 1`:10$i:10$i::/home/asir$i:/bin/bash >> alumnosprueba.txt;done
 chpasswd < contrasenas.txt
 egrep 'asir' /etc/shadow
 ```
@@ -41,3 +42,19 @@ Con newusers digo que se creen los usuarios del fichero pepe.txt
 Y lo añade a /etc/passwd como hemos hecho en el esqueleto
 Y para ENCRIPTAR la contraseña y lo chute a /etc/shadow lo hacemos a través de chpasswd, con esto hacemos que implemente las contraseñas del fichero de contraseñas creados con el for pwgen…
 Esto hace que los usuarios estén creados con contraseñas aleatorias y encriptadas, si probáis a iniciar sesión os debe de salir
+para añadir las contraseñas
+
+```bash
+for i in {1..25};do `useradd asir$i`;done
+for i in {01..25};do echo "asir$i:x:12$i:12$i::/home/asir$i:/bin/bash";done >> passwd.txt
+```
+
+# comandos examen
+```bash
+for i in {1..25};do `useradd asir$i -g ASIR -d /home/asir$i -s /bin/bash`;done
+pwgen -c -n -B 10 1
+for i in {1..25};do echo asir$i:`pwgen -c -n -B 10 1`>>cosillas.txt;done
+chpasswd < cosillas.txt
+
+wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso
+```

@@ -42,6 +42,10 @@ useradd desarrollo1 -g desarrollo -d /proyecto/desarrollo/desarrollo1 -s /bin/ba
 useradd desarrollo2 -g desarrollo -d /proyecto/desarrollo/desarrollo2 -s /bin/bash
 useradd explotacion1 -g explotacion -d /proyecto/explotacion/explotacion1 -s /bin/bash
 useradd explotacion2 -g explotacion -d /proyecto/explotacion/explotacion2 -s /bin/bash
+useradd docente -g docentes -d /home/docente -s /bin/bash
+for i in {1..25};do `useradd asir$i -g ASIR -d /home/asir$i -s/bin/bash`;done
+for i in {1..25};do `mkdir /home/asir$i`;done
+pwgen -c -n -B 10 1
 ```
 para crear los usuarios dentro de los grupos, se utiliza el parámetro -g. El parámetro -d permite seleccionar el directorio de trabajo, y por último el parámetro -s selecciona la consola de acceso del usuario.
 

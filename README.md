@@ -8,7 +8,7 @@
 4. [Permisos UGOA](iso/permisosUgoa.md)
 5. Creación de usuarios y política de privacidad
 6. [Creación de usuarios en modo batch](iso/usuariosbash.md)
-
+![](par/foto_underworld_enunciado.png)
 
 ## HORARIO
 
