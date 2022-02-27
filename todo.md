@@ -1,0 +1,34 @@
+---
+title: "TODO"
+---
+
+# Trabajos que quedan por hacer PARA APROBAR:
+- ISO
+    - [x] Creación de usuarios modo batch
+    - [x] Creación de usuarios y políticas
+- HARDWARE
+    - [x] Instalación de debian bajo LVM y snap
+- REDES
+    - [x] P9 Configuración de switches en GNS3
+    - [x] P10 ARP
+    - [ ] P11 Enrutamiento en Linux y Mikrotik
+    - [ ] P12 Underworld
+    - [ ] P13 NAT
+ - FOL
+    - [ ] Nómina Ana Jiménez
+    - [ ] Nómina Laura Cosío
+    - [ ] Nómina Agapito
+    - [ ] Actividad recuperación
+    - [ ] Trabajo grupal 1/3/22  
+  - LM
+      - PROYECTO JSON
+          - [x] Archivo
+          - [x] Enunciado
+          - [ ] Programa
+      - PROYECTO BBDD
+          - [ ] Archivo
+          - [ ] Enunciado
+          - [ ] Programa
+    - [ ] Tarea XPATH
+- BBDD
+- [ ] Proyecto redmine
