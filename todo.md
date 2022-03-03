@@ -19,14 +19,14 @@ title: "TODO"
     - [ ] Nómina Laura Cosío
     - [ ] Nómina Agapito
     - [ ] Actividad recuperación
-    - [ ] Trabajo grupal 1/3/22  
+    - [x] Trabajo grupal 1/3/22  
   - LM
       - PROYECTO JSON
           - [x] Archivo
           - [x] Enunciado
           - [ ] Programa
       - PROYECTO BBDD
-          - [ ] Archivo
+          - [x] Archivo
           - [ ] Enunciado
           - [ ] Programa
     - [ ] Tarea XPATH
