@@ -2,13 +2,17 @@
 ---
 ```mermaid
 gantt
+    %%etiquetas posibles: done,active,crit,milestone
     title Tareas 3er trimestre
     dateFormat  YYYY-MM-DD
     section eventos
     Inicio tercer trimestre : milestone,2022-03-10,1d
     fin tercer trimestre : milestone,2022-05-30,1d
+    
     section LM
-    XPATH                   :a1, 2022-02-25, 2022-03-07
+    Proyecto JSON           :done,2022-02-14,2022-03-07
+    Proyecto MySQL          :done,2022-02-14,2022-03-07
+    XPATH                   :done,2022-02-25,2022-03-07
 
     section FOL
     Convenio colectivo      :2022-03-03,2022-03-11
@@ -51,6 +55,16 @@ gantt
 | LM    | FOL    | FH        | FOL    | FOL     |
 | ISO   | PAR    | BBDD      | ISO    | PAR     |
 | ISO   | PAR    | BBDD      | ISO    | PAR     |
+
+| Lunes | Martes | Miércoles | Jueves | Viernes |
+|:-----:|:------:|:---------:|:------:|:-------:|
+| BD  | Hardware     | Sistemas       | BD   | BD    |
+| BD  | Sistemas    | Sistemas       | Redes    | Programación      |
+| Programación    | Sistemas    | Hardware        | Redes    | Programación      |
+| -     | -      | -         | -      | -       |
+| Programación    | FOL    | Hardware        | FOL    | FOL     |
+| Sistemas   | Redes    | BBDD      | Sistemas    | Redes     |
+| Sistemas   | Redes    | BBDD      | Sistemas    | Redes     |
 
 BBDD :arrow_right: Bases de Datos
 
