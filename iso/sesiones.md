@@ -18,7 +18,7 @@ screen -ls
 screen -r 9740.rrodriguez
 ``` 
 ```mermaid
-  graph TD;
+  graph LR;
       tty---sesión;
       subgraph SE CIERRA TODO AL SALIR
           sesión---ventana1;

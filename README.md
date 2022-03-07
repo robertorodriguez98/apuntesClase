@@ -1,3 +1,21 @@
+# Diagrama gantt de actividades próximas
+---
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    Inicio tercer trimestre : milestone,2022-03-10,1d
+    section LM
+    XPATH                   :a1, 2022-02-25, 2022-03-07
+
+    section FOL
+    Convenio colectivo      :2022-02-03,2022-03-11
+
+    section ISO
+    
+    fin tercer trimestre : milestone,2022-05-30,1d
+```
+
 # Índice
 
 ---
