@@ -2,18 +2,28 @@
 ---
 ```mermaid
 gantt
-    title A Gantt Diagram
+    title Tareas 3er trimestre
     dateFormat  YYYY-MM-DD
+    section eventos
     Inicio tercer trimestre : milestone,2022-03-10,1d
+    fin tercer trimestre : milestone,2022-05-30,1d
     section LM
     XPATH                   :a1, 2022-02-25, 2022-03-07
 
     section FOL
-    Convenio colectivo      :2022-02-03,2022-03-11
+    Convenio colectivo      :2022-03-03,2022-03-11
 
     section ISO
-    
-    fin tercer trimestre : milestone,2022-05-30,1d
+    placeholder             :15d
+
+    section FH
+    placeholder             :15d
+
+    section PAR
+    placeholder             :15d
+
+    section BBDD
+    placeholder             :15d
 ```
 
 # Índice
