@@ -4,18 +4,19 @@
 gantt
     %%etiquetas posibles: done,active,crit,milestone
     title Tareas 3er trimestre
-    dateFormat  YYYY-MM-DD
+    dateFormat  DD-MM-YY
+    axisFormat  %d-%m
     section eventos
-    Inicio tercer trimestre : milestone,2022-03-10,1d
-    fin tercer trimestre : milestone,2022-05-30,1d
-    
+    Inicio tercer trimestre : milestone,10-03-22,1d
+    fin tercer trimestre : milestone,30-05-22,1d
+
     section LM
-    Proyecto JSON           :done,2022-02-14,2022-03-07
-    Proyecto MySQL          :done,2022-02-14,2022-03-07
-    XPATH                   :done,2022-02-25,2022-03-07
+    Proyecto JSON           :done,14-02-22,07-03-22
+    Proyecto MySQL          :done,14-02-22,07-03-22
+    XPATH                   :done,25-02-22,07-03-22
 
     section FOL
-    Convenio colectivo      :2022-03-03,2022-03-11
+    Convenio colectivo      :03-03-22,11-03-22
 
     section ISO
     placeholder             :15d
