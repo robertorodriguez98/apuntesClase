@@ -30,7 +30,7 @@ gantt
     section BBDD
     placeholder             :15d
     
-    click nat href "gantt/nat.md"
+    click nat href "https://github.com/robertorodriguez98/apuntesClase/blob/main/gantt/nat.md"
 ```
 
 # Índice
