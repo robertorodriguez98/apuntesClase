@@ -1,9 +1,11 @@
 # RAID
-* RAID 0 -> no hay redundancia, alterna varios discos duros para aumentar la velocidad de escritura. Si se pierde 1 disco se pierden todos los datos
-* RAID 1 -> espejo, redundancia total de datos.
-binario MDADM
-mdadm --examine /dev/vd[c-e]
+* **RAID 0** -> no hay redundancia, alterna varios discos duros para aumentar la velocidad de escritura. Si se pierde 1 disco se pierden todos los datos
+* **RAID 1** -> espejo, redundancia total de datos.
+
+Para hacerlo tenemos que utilizar el binario **MDADM**
+
 ```bash
+mdadm --examine /dev/vd[c-e]
 # primero creamos las particiones con etiqueta de raid
 mdadm -C /dev/md0 -l raid0 -n 2 /dev/sd[c-d]
 cat /proc/mdstat # para ver los raid del sistema

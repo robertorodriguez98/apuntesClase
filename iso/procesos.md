@@ -18,3 +18,32 @@ kill # manda señales, no mata procesos directamente la 9 (SIGKILL) Si mata
 fg # mandar a primer plano
 bg # mandar a segundo plano
 ```
+
+comandos de la practica:
+```bash
+    ps
+    jobs
+    pstree
+    kill
+    htop
+    top
+    fg,bg
+    CTRL + C
+    CTRL + Z
+    pidof
+    nohup
+    disown
+    screen
+    killall
+    nice
+    renice
+    pkill
+    pgrep
+    proc
+```
+generar procesos
+```bash
+    sleep
+    clockx
+    yes
+```

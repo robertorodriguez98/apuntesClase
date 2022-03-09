@@ -1,10 +1,4 @@
----
-title: "creacion de cuentas de usuario en modo batch"
-keywords:
-  - iso
-  - usuarios
-  - bucles
----
+
 creacion de contraseñas
 ```bash
 for i in {1..30};do echo asir$i:`pwgen 10 1`>>contrasenas.txt;done

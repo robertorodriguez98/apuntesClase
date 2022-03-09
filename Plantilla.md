@@ -39,5 +39,3 @@ keywords:
 
 ---
 
-
-[Creación de cuentas de usuario en modo batch](iso/usuariosbash.md)

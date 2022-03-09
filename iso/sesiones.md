@@ -11,14 +11,15 @@ screen -S rrodriguez
     * <kbd>Alt Gr</kbd>+<kbd>1</kbd>(|): divide verticalmente para tener 2 regiones
     * <kbd>Shift</kbd>+<kbd>S</kbd>: divide horizontalmente
     * <kbd>Tab</kbd>: cambiar de región (necesito seleccionar una sesión)
-    * 
+    * <kbd>N</kbd>:pasar a la siguiente región
+    * <kbd>k</kbd>:matar una sesión
 * Conectarse a una sesión existente
 ```bash
 screen -ls
 screen -r 9740.rrodriguez
 ``` 
 ```mermaid
-  graph LR;
+  graph TD;
       tty---sesión;
       subgraph SE CIERRA TODO AL SALIR
           sesión---ventana1;
