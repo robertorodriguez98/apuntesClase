@@ -13,22 +13,21 @@ title: "TODO"
     - [x] P10 ARP
     - [ ] P11 Enrutamiento en Linux y Mikrotik
     - [ ] P12 Underworld
-    - [ ] P13 NAT
  - FOL
     - [ ] Nómina Ana Jiménez
     - [ ] Nómina Laura Cosío
     - [ ] Nómina Agapito
-    - [ ] Actividad recuperación
+    - [x] Actividad recuperación
     - [x] Trabajo grupal 1/3/22  
   - LM
       - PROYECTO JSON
           - [x] Archivo
           - [x] Enunciado
-          - [ ] Programa
+          - [x] Programa
       - PROYECTO BBDD
           - [x] Archivo
-          - [ ] Enunciado
-          - [ ] Programa
-    - [ ] Tarea XPATH
+          - [x] Enunciado
+          - [x] Programa
+    - [x] Tarea XPATH
 - BBDD
 - [ ] Proyecto redmine

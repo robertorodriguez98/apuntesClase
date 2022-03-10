@@ -14,7 +14,7 @@ gantt
     HTML :07-03-22,7d
 
     section FOL
-
+	Convenio Colectivo      :10-03-22,7d
 
     section ISO
     placeholder             :15d
@@ -23,18 +23,15 @@ gantt
     placeholder             :15d
 
     section PAR
-    P13 NAT             :crit,nat,08-03-22,21-03-22
+    P13 NAT             :crit,nat,08-03-22,17-03-22
 
     section BBDD
-    placeholder             :15d
+    Proyecto DDL y DML  :10-03-22,03-05-22
 
 ```
 
 [indices](indices.md)
----
-## ISO
 
-![](par/foto_underworld_enunciado.png)
 
 ## HORARIO
 
@@ -50,15 +47,18 @@ gantt
 | ISO   | PAR    | BBDD      | ISO    | PAR     |
 | ISO   | PAR    | BBDD      | ISO    | PAR     |
 
-| Lunes | Martes | Miércoles | Jueves | Viernes |
-|:-----:|:------:|:---------:|:------:|:-------:|
-| BD  | Hardware     | Sistemas       | BD   | BD    |
-| BD  | Sistemas    | Sistemas       | Redes    | Programación      |
-| Programación    | Sistemas    | Hardware        | Redes    | Programación      |
-| -     | -      | -         | -      | -       |
-| Programación    | FOL    | Hardware        | FOL    | FOL     |
-| Sistemas   | Redes    | BBDD      | Sistemas    | Redes     |
-| Sistemas   | Redes    | BBDD      | Sistemas    | Redes     |
+
+
+| Lunes        | Martes   | Miércoles | Jueves   | Viernes      |
+| ------------ | -------- | --------- | -------- | ------------ |
+| BD           | Hardware | Sistemas  | Redes    | Programación |
+| BD           | Sistemas | Sistemas  | Redes    | Programación |
+| Programación | Sistemas | Hardware  | Redes    | Programación |
+| -            | -        | -         | -        | -            |
+| Programación | FOL      | Hardware  | FOL      | FOL          |
+| Sistemas     | Redes    | BD        | Sistemas | Redes        |
+| Sistemas     | Redes    | BD        | Sistemas | Redes        |
+
 
 BBDD :arrow_right: Bases de Datos
 
@@ -70,4 +70,4 @@ FH :arrow_right: Fundamentos de Hardware
 
 FOL :arrow_right: Formación y Orientación Laboral
 
-PAR :arrow_right: Planificación y Administración de Redes
+PAR :arrow_right: ➡️ Planificación y Administración de Redes
