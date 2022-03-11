@@ -3,6 +3,10 @@
 top
 htop
 ps aux
+ps -efL
+pstree -sp
+pstree -np
+tasksel
 xkill
 yes
 sleep 3600
@@ -21,29 +25,39 @@ bg # mandar a segundo plano
 
 comandos de la practica:
 ```bash
-    ps
-    jobs
-    pstree
-    kill
-    htop
-    top
-    fg,bg
-    CTRL + C
-    CTRL + Z
-    pidof
-    nohup
-    disown
-    screen
-    killall
-    nice
-    renice
-    pkill
-    pgrep
-    proc
+ps
+jobs
+pstree
+kill
+htop
+top
+fg,bg
+CTRL + C
+CTRL + Z
+pidof
+nohup
+disown
+screen
+killall
+nice
+renice
+pkill
+pgrep
+proc
 ```
 generar procesos
 ```bash
-    sleep
-    clockx
-    yes
+sleep
+clockx
+yes
 ```
+con los siguientes comandos los procesos siguen ejecutandose al matar al padre
+```bash
+nohup # tiene salida estandar a un fichero especifico
+disown # hay que redireccionarlo manualmente
+
+tail -f # permite ver un fichero que se actualiza
+```
+
+## Hilos
+unidad minima por la que podemos dividir un proceso al que se le pueden dar recursos del procesador. Un proceso puede tener varios hilos(ej firefox)

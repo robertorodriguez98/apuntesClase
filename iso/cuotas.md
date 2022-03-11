@@ -1,12 +1,5 @@
----
-title: "Cuotas"
-keywords:
-  - ISO
-  - markdown
-  - apuntes
-...
 # Cuotas
-
+#iso #bash
 * Instalación
 
 ```bash

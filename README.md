@@ -1,4 +1,4 @@
-# Diagrama gantt de actividades próximas
+# Próximas actividades
 ---
 ```mermaid
 gantt
@@ -26,7 +26,7 @@ gantt
     P13 NAT             :crit,nat,08-03-22,17-03-22
 
     section BBDD
-    Proyecto DDL y DML  :10-03-22,03-05-22
+    Proyecto DDL y DML  :active,10-03-22,03-05-22
 
 ```
 
@@ -35,39 +35,16 @@ gantt
 
 ## HORARIO
 
----
 
-| Lunes | Martes | Miércoles | Jueves | Viernes |
-|:-----:|:------:|:---------:|:------:|:-------:|
-| BBDD  | FH     | ISO       | BBDD   | BBDD    |
-| BBDD  | ISO    | ISO       | PAR    | LM      |
-| LM    | ISO    | FH        | PAR    | LM      |
-| -     | -      | -         | -      | -       |
-| LM    | FOL    | FH        | FOL    | FOL     |
-| ISO   | PAR    | BBDD      | ISO    | PAR     |
-| ISO   | PAR    | BBDD      | ISO    | PAR     |
-
+|    Lunes     |  Martes  | Miércoles |  Jueves  |   Viernes    |
+|:------------:|:--------:|:---------:|:--------:|:------------:|
+|      BD      | Hardware | Sistemas  |    BD    |      BD      |
+|      BD      | Sistemas | Sistemas  |  Redes   | Programación |
+| Programación | Sistemas | Hardware  |  Redes   | Programación |
+|      -       |    -     |     -     |    -     |      -       |
+| Programación |   FOL    | Hardware  |   FOL    |     FOL      |
+|   Sistemas   |  Redes   |    BD     | Sistemas |    Redes     |
+|   Sistemas   |  Redes   |    BD     | Sistemas |    Redes     |
 
 
-| Lunes        | Martes   | Miércoles | Jueves   | Viernes      |
-| ------------ | -------- | --------- | -------- | ------------ |
-| BD           | Hardware | Sistemas  | Redes    | Programación |
-| BD           | Sistemas | Sistemas  | Redes    | Programación |
-| Programación | Sistemas | Hardware  | Redes    | Programación |
-| -            | -        | -         | -        | -            |
-| Programación | FOL      | Hardware  | FOL      | FOL          |
-| Sistemas     | Redes    | BD        | Sistemas | Redes        |
-| Sistemas     | Redes    | BD        | Sistemas | Redes        |
 
-
-BBDD :arrow_right: Bases de Datos
-
-LM :arrow_right: Lenguajes de Marcas
-
-ISO :arrow_right: Implantación de Sistemas Operativos
-
-FH :arrow_right: Fundamentos de Hardware
-
-FOL :arrow_right: Formación y Orientación Laboral
-
-PAR :arrow_right: ➡️ Planificación y Administración de Redes

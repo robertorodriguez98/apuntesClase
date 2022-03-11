@@ -1,10 +1,4 @@
----
-title: "Permisos UGOA"
-keywords:
-  - iso
-  - usuarios
-  - permisos
----
+#iso #bash
 
 1. Crea los siguientes grupos de usuarios: sistemas, desarrollo y explotación:
 ```bash
