@@ -15,3 +15,8 @@
 
 # Trabajo
 * [Trabajo Procesos](trabajoprocesos.md)
+
+# Consulta
+```dataview
+TABLE file.mtime as Edited FROM "iso"
+```

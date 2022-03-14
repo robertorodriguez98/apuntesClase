@@ -26,7 +26,8 @@ gantt
     P13 NAT             :crit,nat,08-03-22,17-03-22
 
     section BBDD
-    Proyecto DDL y DML  :active,10-03-22,03-05-22
+    Proyecto DDL y DML          :10-03-22,03-05-22
+    Practica obligatoria PL/SQL :active,13-03-22,03-04-22
 
 ```
 
