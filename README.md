@@ -17,7 +17,7 @@ gantt
 	Convenio Colectivo      :10-03-22,7d
 
     section ISO
-    placeholder             :15d
+    procesos            :14-03-22,27-03-22
 
     section FH
     placeholder             :15d
@@ -27,7 +27,7 @@ gantt
 
     section BBDD
     Proyecto DDL y DML          :10-03-22,03-05-22
-    Practica obligatoria PL/SQL :active,13-03-22,03-04-22
+    Practica obligatoria PL/SQL :active,14-03-22,03-04-22
 
 ```
 

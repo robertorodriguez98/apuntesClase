@@ -12,6 +12,7 @@
 * [Sesiones](sesiones.md)
 * [Usuarios batch dificil](usuariosbatchdificil.md)
 * [Hardlinks](hardlinks.md)
+* [Scripts](scripts.md)
 
 # Trabajo
 * [Trabajo Procesos](trabajoprocesos.md)

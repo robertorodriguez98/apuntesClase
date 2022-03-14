@@ -36,3 +36,19 @@ l2 -->|respuesta_HTTP<br>200<br>404-Not_found<br>3xx-Redirecciones<br>5xx-Error_
 se hace una petición por cada elemento que haya en la página (el html, imágenes..)
 ## Páginas web dinámicas:
 se necesita que en el servidor exista un lenguaje de programación `web(PHP)` 
+el html que se nos muestra ha sido generado por un programa
+
+### peticiones:
+* Get → los parámetrs están en la URL(enlaces/formularios)
+* POST → Los parámetros se envían en el campo, no en la url(formularios)
+
+### formularios
+* input type="text"
+* select
+* checkbox
+* radio
+* input type="password"
+* textarea
+
+- diff → crear bloques que no estan clasificados en ningun otro
+- span → para crear texto que no está clasificado por ninguna otra etiqueta7

@@ -7,5 +7,5 @@
 5. [lm](lm/indiceLM.md)
 
 ```dataview
-TABLE file.mtime as Edited FROM "" WHERE contains(file.name, "indice") AND ( file.name != "indices" AND file.name != "indice" )
+TABLE file.mtime as Edited FROM "" WHERE contains(file.name, "indice")
 ```
