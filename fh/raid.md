@@ -44,5 +44,11 @@ mdadm --remove /dev/md1 /dev/vda
 ```
 
 ## RAID 10
-```sql
+```bash
+mdadm -C /dev/md10 -l 10 -n 4 /dev/vd[ad]
 ```
+para ver el rendimiento: `hdparm`
+```bash
+hdparm -t /dev/vda
+```
+para borrar los metadatos: `wipefs -af /dev/vda`

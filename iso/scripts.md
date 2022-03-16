@@ -34,11 +34,44 @@ Etiqueta
 ```bash
 #!/usr/bin/env bash
 	
-echo "#!/usr/bin/env bash" >> fichero.sh
-echo "#Autor: " > fichero.sh
-echo "#Versión: " > fichero.sh
-echo "#Descripción: " > fichero.sh
-echo "#Fecha de creación: " > fichero.sh
+echo "#!/usr/bin/env bash" > fichero.sh
+echo "#Autor: " >> fichero.sh
+echo "#Versión: " >> fichero.sh
+echo "#Descripción: " >> fichero.sh
+echo "#Fecha de creación: " >> fichero.sh
+echo -e "#Programa principal\n\n" >> fichero.sh
 ```
 
 si quiero que una variable de un script sea usada por un comando externo, hay que exportarla para que no se borre al acabar el script: `export var1`
+para ver las variables definidas por el usuario `set | grep var1`
+para ver las variables exportadas `env`
+
+```bash
+egrep 'vagrant' /etc/passwd | cut  -d':' -f4
+uptime | awk '{print $3}'
+
+set $(uptime)
+echo $1
+
+```
+
+### Estructuras condicionales:
+se pueden hacer con los siguientes comandos:
+* `test expresión`
+* `[ expresión ]`
+* `[[ expresión ]]` (este es más guay, como el egrep)
+#### IF
+```bash
+if <condición>
+then
+	<comandos>
+elif <condición>
+then
+	<comandos>
+...
+else
+	<comandos>
+fi
+fi
+
+```

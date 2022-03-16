@@ -57,6 +57,7 @@ nohup # tiene salida estandar a un fichero especifico
 disown # hay que redireccionarlo manualmente
 
 tail -f # permite ver un fichero que se actualiza
+ahora resulta que hay otro que no han dicho que se llama watch
 ```
 
 ## Hilos
