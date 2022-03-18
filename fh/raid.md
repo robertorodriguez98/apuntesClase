@@ -52,3 +52,7 @@ para ver el rendimiento: `hdparm`
 hdparm -t /dev/vda
 ```
 para borrar los metadatos: `wipefs -af /dev/vda`
+## RAID 5
+```bash
+mdadm -C /dev/md5 -l 5 -n 3 /dev/vd[ac]
+```

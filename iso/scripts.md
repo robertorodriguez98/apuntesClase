@@ -55,12 +55,12 @@ echo $1
 
 ```
 
-### Estructuras condicionales:
+## Estructuras condicionales:
 se pueden hacer con los siguientes comandos:
 * `test expresión`
 * `[ expresión ]`
 * `[[ expresión ]]` (este es más guay, como el egrep)
-#### IF
+### IF
 ```bash
 if <condición>
 then
@@ -72,6 +72,57 @@ then
 else
 	<comandos>
 fi
-fi
+```
+### CASE
+```bash
+case <variable>
+in
+expresión 1)
+	<bloque 1>
+;;
+)*
+	<bloque por defecto>
+;;
+esac
+```
+
+## Estructuras repetitivas:
+### FOR
+```bash
+for <variable> in <recorrido>
+do
+	<comandos>
+done
+```
+### WHILE
+```bash
+
+```
+## Funciones
+```bash
+# Declaración de funciones
+function nombre_funcion{
+Comandos
+}
+ó
+nombrefuncion(){
+Comandos
+}
+# invocación:
+nombre_función arg1 arg2
+```
+
+TAREA: script que automatice la instalación de un binario :
+dado un binario me diga si está o no está;
+si no está instalarlo.
+```bash
+function f_existeBinario {
+	if dpkg -l $1 &> /dev/null;
+	then
+		return 0
+	else
+		return 1
+	fi
+}
 
 ```
