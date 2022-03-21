@@ -52,3 +52,7 @@ el html que se nos muestra ha sido generado por un programa
 
 - diff → crear bloques que no estan clasificados en ningun otro
 - span → para crear texto que no está clasificado por ninguna otra etiqueta7
+
+páginas del trabajo:
+* https://www.creativosonline.org/templates-web-responsive-html5-css3.html
+* 

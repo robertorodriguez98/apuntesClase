@@ -25,18 +25,18 @@ bg # mandar a segundo plano
 
 comandos de la practica:
 ```bash
-ps
-jobs
-pstree
-kill
+# ps
+# jobs
+# pstree
+# kill
 htop
 top
-fg,bg
-CTRL + C
-CTRL + Z
-pidof
-nohup
-disown
+# fg,bg
+# CTRL + C
+# CTRL + Z
+# pidof
+# nohup
+# disown
 screen
 killall
 nice
