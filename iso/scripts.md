@@ -126,3 +126,68 @@ function f_existeBinario {
 }
 
 ```
+
+### Para sacar cadenas de texto de las funciones se hace con echo:
+```bash
+funcion f_prueba{
+	palabra="hola"
+	echo $palabra
+}
+
+palabraPrincipal = $(f_prueba)
+
+```
+ip 
+numeros
+tabulacion
+espacio en  blanco
+cadena
+
+## Función de ayuda
+```bash
+$0 -> nombre script
+$1.... -> parámetros
+$# -> número argumentos pasados
+$@ -> todos los argumentos pasados
+```
+
+## Tablas
+```bash
+nombre_tabla[indice]=valor
+
+# formas de declararla
+ciclos[0]='ASIR'
+declare -a modulosASIR=(Sistemas Redes Lenguaje\ Marcas)
+declare -a modulosASIR=('Seguridad''Sistemas Operativos')
+distros=('Debian''Red Hat')
+distros=(Debian Red\ Hat)
+
+echo ${distros[0]}
+# Devuelve todos los elementos del array
+echo ${distros[*]}
+echo ${distros[@]}
+# Devuelve cuántos elementos hay
+echo ${#distros[*]}
+```
+### ASOCIATIVAS (diccionarios)
+```bash
+typeset -A usuario1
+usuario1=([Nombre]="Pepe" [Apellidos]="García Sanz")
+echo ${usuario1[Nombre]}
+```
+
+## Depuración
+incluir la opción -x  en el shebang ó
+incluir -x en la invocación del script:
+bash -x nombre_script
+opción -e salir en el primer error que se encuentre
+opción -v muestra el código y dónde están los errores
+
+para comprobar/mejorar codigo
+shellcheck nombrescript.sh
+
+## Comandos útiles
+* getopts:
+automatizar con sgdisk y getopts
+nmtui
+f_habilita quota
