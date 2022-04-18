@@ -20,3 +20,21 @@ deactivate
 * loop.first -> T:
 * Para leer un diccionario se usa el punto (enlace.url enlace.texto)
 Ejercicio: dado un numero mostrar su tabla de multiplicar, si es 0 devuelve un error 404
+
+## Leer datos:
+* Parámetros URL: (articulos/?nombre=manzana&precio=10)
+```python
+@app.route('/articulos')
+def articulos():
+	nombre=request.args.get("nombre")
+	precio=request.args.get("precio")
+	return render_template("articulos.html",nombre=nombre,precio=precio)
+```
+* Rutas dinámicas:(articulos/manzana/10)
+```python
+@app.route('/articulos/<nombre>/<precio>')
+def articulos(nombre,precio):
+	return render_template("articulos.html",nombre=nombre,precio=precio)
+```
+### Envio de información mediante formularios
+* Se utiliza el método post
