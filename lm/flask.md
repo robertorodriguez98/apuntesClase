@@ -9,7 +9,7 @@ python3 -m venv xml
 source xml/bin/activate
 pip install flask
 pip list
-pip freeze > requirements.
+pip freeze > requirements.txt
 pip install -r requirements.txt
 deactivate
 ```
@@ -38,3 +38,24 @@ def articulos(nombre,precio):
 ```
 ### Envio de información mediante formularios
 * Se utiliza el método post
+Primero se crea el formulario en el html y luego en app.py:
+```python
+# la ruta SOLO funciona si accedemos a ella mediante el método POST
+@app.route('/suma',methods=["POST"])
+def suma():
+num1=request.form.get("numero1")
+num2=request.form.get("numero2")
+try:
+resultado = int(num1) + int(num2)
+except:
+return abort(404)
+return render_template("suma.html", num1=num1, num2=num2, resultado=resultado)
+```
+## Servicio
+para utilizar HEROKU hay que realizar un cambio: 
+```python
+import os
+# el programa va aqui
+port = os.environ["PORT"]
+app.run('0.0.0.0', int(port), debug=True)
+```

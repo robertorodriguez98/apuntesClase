@@ -64,3 +64,28 @@ New-Partition -DiskNumber 2 -UseMaximumSize -DriveLetter Z
 Format-Volume -FileSystem NTFS -DriveLetter Z
 ```
 #  Controlador de Dominio
+## Grupo de trabajo y dominio
+* grupo de trabajo: pequeña red de area local en la que se comparten recursos y servicios (por ejemplo impresión, servidor web..)
+![](grupoTrabajo.excalidraw)
+* Conforme el grupo va creciendo, se va volviendo cada vez más difícil de administrar por un solo administrador en todos los equipos. Por ejemplo habría que crear en cada máquina un usuario por cada usuario de la red. Aquí es donde entra el concepto de dominio.
+![](Dominio.excalidraw)
+* Cuentas locales: Cuentas que solo están en un equipo individual
+* tipos de objeto:
+	* maquinas: computer
+	* cuentas de usuario
+		* nombre
+		* grupos
+		* permisos
+		* correo
+		* telefono
+	* impresora
+	* servicio
+	* recurso compartido
+	* grupo
+* los objetos se agrupan en **OU**: unidades organizativas
+* catálogo: lista de todos los objetos del dominio
+* esquema: plantilla del catálogo
+* Las uniones de dominios se llaman **RC**: relaciones de confianza, no tienen por que ser de confianza total entre los dominios, por ejemplo la confianza puede ser unilateral(como de madrid a trescantos)
+![](expansiondominio.excalidraw)
+## Creación Controlador de dominio
+### Interfaz Gráfica
