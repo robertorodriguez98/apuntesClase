@@ -1,5 +1,5 @@
-sconfig
-ASIR2021-2022
+**sconfig**
+contraseña: ASIR2021-2022
 ```powershell
 diskpart # es de cmd, hacer particiones, formatear, hacer visibles unidades(montar asignando una letra)
 help
@@ -87,5 +87,9 @@ Format-Volume -FileSystem NTFS -DriveLetter Z
 * esquema: plantilla del catálogo
 * Las uniones de dominios se llaman **RC**: relaciones de confianza, no tienen por que ser de confianza total entre los dominios, por ejemplo la confianza puede ser unilateral(como de madrid a trescantos)
 ![](expansiondominio.excalidraw)
+Ejemplo de ampliación de dominios
+
+---
+
 ## Creación Controlador de dominio
 ### Interfaz Gráfica
