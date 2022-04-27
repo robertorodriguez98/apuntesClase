@@ -1,4 +1,4 @@
-# Script linux
+r# Script linux
 es un lenguaje interpretado (como python)
 ```bash
 #! /bin/bash

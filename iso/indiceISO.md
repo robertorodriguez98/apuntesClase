@@ -13,6 +13,7 @@
 * [Usuarios batch dificil](usuariosbatchdificil.md)
 * [Hardlinks](hardlinks.md)
 * [Scripts](scripts.md)
+* [windows](windos.md)
 
 # Trabajo
 * [Trabajo Procesos](trabajoprocesos.md)

@@ -69,6 +69,7 @@ Format-Volume -FileSystem NTFS -DriveLetter Z
 ![](grupoTrabajo.excalidraw)
 * Conforme el grupo va creciendo, se va volviendo cada vez más difícil de administrar por un solo administrador en todos los equipos. Por ejemplo habría que crear en cada máquina un usuario por cada usuario de la red. Aquí es donde entra el concepto de dominio.
 ![](Dominio.excalidraw)
+* UNC universal name convenion
 * Cuentas locales: Cuentas que solo están en un equipo individual
 * tipos de objeto:
 	* maquinas: computer
@@ -93,3 +94,25 @@ Ejemplo de ampliación de dominios
 
 ## Creación Controlador de dominio
 ### Interfaz Gráfica
+- instalar servicios de dominio de Active Directory
+Rol servicio de Dominio de Active Directory
+* Agregar un nuevo bosque (nombre.local)
+* Cualquier usuario con una cuenta de usuario en el dominio puede agregar hasta 10 máquinas al dominio
+
+## Meter máquina en el dominio
+### Interfaz gráfica
+1. cambiar el dns al dns de la controladora
+2. propiedades del sistema
+3. nombre de equipo
+4. cambiar pertenencia a miembro de dominio,para agregarlo a computers de la controladora
+5. Firewall
+### PowerShell
+1. SCONFIG:
+	1. Configuración de red, dns
+
+```powershell
+Get-Module ADDSDeployment
+Import-Module ADDSDeployment
+Get-Module ADDSDeployment
+```
+
