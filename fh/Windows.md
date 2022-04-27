@@ -6,7 +6,7 @@ administrador de equipos
 ### en el administrador de servidores
 al crear el storage pool seleccionamos asignación manual
 
-# en powershell
+## en powershell
 ```powershell
 Get-Command -Module Storage | more
 Get-Command *storagepool*
