@@ -94,7 +94,7 @@ Ejemplo de ampliación de dominios
 
 ## Creación Controlador de dominio
 ### Interfaz Gráfica
-- instalar servicios de dominio de Active Directory
+- instalar servicios de dominio de Active Directory (dentro de agregar roles y caracteristicas)
 Rol servicio de Dominio de Active Directory
 * Agregar un nuevo bosque (nombre.local)
 * Cualquier usuario con una cuenta de usuario en el dominio puede agregar hasta 10 máquinas al dominio
