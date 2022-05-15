@@ -2,32 +2,20 @@
 title: "TODO"
 ---
 
-# Trabajos que quedan por hacer PARA APROBAR:
-- ISO
-    - [x] Creación de usuarios modo batch
-    - [x] Creación de usuarios y políticas
-- HARDWARE
-    - [x] Instalación de debian bajo LVM y snap
+# Trabajos PENDIENTES
 - REDES
-    - [x] P9 Configuración de switches en GNS3
-    - [x] P10 ARP
-    - [ ] P11 Enrutamiento en Linux y Mikrotik
+    - [ ] P5 Escenario GNS3
+    - [x] P11 Enrutamiento en Linux y Mikrotik
     - [ ] P12 Underworld
- - FOL
-    - [ ] Nómina Ana Jiménez
-    - [ ] Nómina Laura Cosío
-    - [ ] Nómina Agapito
-    - [x] Actividad recuperación
-    - [x] Trabajo grupal 1/3/22  
+    - [ ] P14 Underworld Evolution
+    - [ ] P16 IPv6 Túnel
+    - [ ] P17 Transporte y Aplicación
+3 dias por practica
   - LM
-      - PROYECTO JSON
-          - [x] Archivo
-          - [x] Enunciado
-          - [x] Programa
-      - PROYECTO BBDD
-          - [x] Archivo
-          - [x] Enunciado
-          - [x] Programa
-    - [x] Tarea XPATH
+      - PROYECTO API
+          - [x] Primera parte
 - BBDD
-- [ ] Proyecto redmine
+- [ ] Proyecto MONGODB
+	- Cursos MONGODB:
+		- [ ] Basics
+		- [ ] MySQL pros

@@ -21,3 +21,5 @@ Get-VirtualDisk –FriendlyName DiscoVirtual1 | Get-Disk | Initialize-Disk –Pa
 
 
 ```
+
+Practica: hay que usar aprovisionamiento fino del disco tanto en lvm como en storage pools

@@ -109,6 +109,7 @@ Rol servicio de Dominio de Active Directory
 ### PowerShell
 1. SCONFIG:
 	1. Configuración de red, dns
+	2. cambiar grupo de trabajo al dominio
 
 ```powershell
 Get-Module ADDSDeployment

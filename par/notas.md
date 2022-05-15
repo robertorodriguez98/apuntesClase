@@ -4,15 +4,14 @@
 | nota        | 7    | 7.14  | 6   | 7.25  | 5.00   | 0   | 0   |         |
 | nota * peso | 0.35 | 0.714 | 0.9 | 0.725 | 0.5    |     |     | 3.189/8 |
 
-NAT 8.25
-Uw ev 
-EXAMEN 7
-IP v6 basica
-Tuneles IPv6
-Transporte y aplicacion
-|             | P13  | P14 | EXAMEN | P15 | P16 | P17 | TOTAL  |
-| ----------- | ---- | --- | ------ | --- | --- | --- | ------ |
-| Nombre      | NAT  | Uw Ev |      | IPv6 1 | IPv6 2 | Trans y App |        |
-| peso        | 1.5  | 1.5 | 1.5    | 1.5 | 1.5 | 1.5 | 9      |
-| nota        | 8.25 | 0   | 7      | 0   | 0   | 0   |        |
-| nota * peso | 1.24 | 0   | 1.05   | 0   | 0   | 0   | 2.29/9 |
+## 3er trimestre
+|             | P13  | P14   | EXAMEN | P15    | P16    | P17         | TOTAL  |
+| ----------- | ---- | ----- | ------ | ------ | ------ | ----------- | ------ |
+| Nombre      | NAT  | Uw Ev |        | IPv6 1 | IPv6 2 | Trans y App |        |
+| peso        | 1.5  | 1.5   | 1.5    | 1.5    | 1.5    | 1.5         | 9      |
+| nota        | 8.25 | 0     | 7      | 0      | 0      | 0           |        |
+| nota * peso | 1.24 | 0     | 1.05   | 0      | 0      | 0           | 2.29/9 |
+TOTAL: (2.29 * 10)/9 = **2.54**
+
+ultimo dia viernes 27
+(5.04 + 3.99 + x)/3 = 5; 5.04 + 3.99 + x= 15; x = 5.97
